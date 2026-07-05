@@ -9,9 +9,9 @@ body {
 .div {
     background-color: #f4f0bb;
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 23px;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -19,6 +19,8 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;
+    display: flex;
+    justify-content: center;
 }
 
 .form {
