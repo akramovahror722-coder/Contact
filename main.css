@@ -51,12 +51,15 @@ textarea {
 .radio-group {
     margin-bottom: 20px;
 }
+
 .radio1:hover {
     cursor: pointer;
 }
+
 .radio2:hover {
     cursor: pointer;
 }
+
 button {
     background-color: #ffb703;
     color: white;
@@ -76,47 +79,58 @@ button:hover {
     box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
 .state {
     cursor: pointer;
 }
+
 .states {
     cursor: pointer;
 }
+
 .data {
     cursor: pointer;
 }
+
 .project {
     cursor: pointer;
     background-color: white;
 }
+
 form br {
     display: none;
 }
+
 #hosting {
     display: inline-block;
     width: auto;
     margin-right: 5px;
 }
+
 label[for="hosting"] {
     display: inline-block;
     margin-right: 15px;
 }
+
 input[type="checkbox"] {
     display: inline-block;
     width: auto;
     margin-right: 10px;
 }
+
 .form {
     display: block;
 }
+
 label {
     display: inline-block;
     margin-right: 10px;
 }
-input[type="checkbox"], 
+
+input[type="checkbox"],
 input[type="radio"] {
     width: auto;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     vertical-align: middle;
 }
 
@@ -124,9 +138,11 @@ p {
     display: block;
     width: 100%;
     margin-top: 15px;
-    font-weight: bold;;
+    font-weight: bold;
+    ;
 }
-label[for="project_description"], 
+
+label[for="project_description"],
 textarea#project_description {
     display: block;
     width: 100%;
@@ -136,24 +152,29 @@ textarea#project_description {
 input[type="checkbox"] {
     margin-right: 20px;
 }
+
 form label {
     margin-top: 15px;
     display: block;
 }
-input[type="radio"], input[type="checkbox"] {
+
+input[type="radio"],
+input[type="checkbox"] {
     display: inline-block;
     width: auto;
     margin-right: 10px;
     margin-left: 10px;
 }
+
 p {
     margin-top: 25px;
     margin-bottom: 10px;
-    font-weight: bold; 
-    color: #555;        
+    font-weight: bold;
+    color: #555;
     font-size: 16px;
-    
+
 }
+
 #project_description {
     display: block;
     margin-top: 15px;
@@ -163,20 +184,25 @@ label[for="project_file"] {
     margin-top: 25px;
     display: block;
 }
+
 .knowledge {
     cursor: pointer;
 }
+
 label:has(+ input[type="checkbox"]) {
-    font-weight: bold;  
-    color: black; 
-    font-size: 14px;           
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
 }
+
 label[for="hosting"] {
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
-label:has(.radio1), label:has(.radio2) {
+
+label:has(.radio1),
+label:has(.radio2) {
     white-space: nowrap;
     display: inline-block;
     margin-right: 15px;
