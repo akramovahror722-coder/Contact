@@ -36,6 +36,8 @@ input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="password"],
+input[type="date"],
+input[type="file"],
 select,
 textarea {
     padding: 10px;
@@ -47,7 +49,7 @@ textarea {
 }
 
 .radio-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .radio1:hover {
     cursor: pointer;
@@ -80,4 +82,11 @@ button:hover {
 }
 .states {
     cursor: pointer;
+}
+.data {
+    cursor: pointer;
+}
+.project {
+    cursor: pointer;
+    background-color: white;
 }
